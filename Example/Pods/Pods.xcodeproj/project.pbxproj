@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A62F0C5ECA80C656659907AF0B650C6 /* Pods-weatherLUtility_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EA116BB6974DA0C888336F6B103C55A /* Pods-weatherLUtility_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		33EC3F96A06BF4B33727FA9EE39E3706 /* weatherLUtility-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 59F91BFD6DCCF16A9A6833946E539E12 /* weatherLUtility-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A316A30FFBF1427B7CAA45673862B39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C168862D27A05668326EBF21EB62FCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		68AA82F2AEE97617DF5230EDD06982F5 /* Pods-weatherLUtility_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4754F04D5897EC735FE44B391F6354D4 /* Pods-weatherLUtility_Example-dummy.m */; };
+		7E66D2CE8559CDE6C2F8CB8DEF7BD7CA /* weatherLUtility-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAAA8CE8983EFAE794FE43049B8E44B0 /* weatherLUtility-dummy.m */; };
+		8BAACFF40ED84BF354F883C6A08C6B79 /* Pods-weatherLUtility_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C47940A54157392D9CA1B42680B98B82 /* Pods-weatherLUtility_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5F9BAAABF728BAF2E6BF041144E6D5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D3F3D3B927BFAB03007A851C /* LocationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F3D3B827BFAB03007A851C /* LocationViewModel.swift */; };
+		D3F3D3BB27BFAB1C007A851C /* LocationModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3F3D3BA27BFAB1C007A851C /* LocationModel.swift */; };
+		D88DD59CD0E74DB9C71B8E74FF28701E /* Pods-weatherLUtility_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7307E82F618094C3ED640D771D24447C /* Pods-weatherLUtility_Tests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		23115E0F094B2B572A18EEC984A9C782 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD6CAEAB6293F174489C79F123941174;
+			remoteInfo = weatherLUtility;
+		};
+		E0080585A13532FE8C42A7D21AE14692 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16467E861CFE546D673E52C2240F2723;
+			remoteInfo = "Pods-weatherLUtility_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1CD73015D8C65F239E3B97EA1ED51F84 /* Pods-weatherLUtility_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-weatherLUtility_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		27C6934BA5E09869C30F83CD42A18DD5 /* weatherLUtility.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = weatherLUtility.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4754F04D5897EC735FE44B391F6354D4 /* Pods-weatherLUtility_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-weatherLUtility_Example-dummy.m"; sourceTree = "<group>"; };
+		4A66AC9AA3E81CB2ACDD522431EF108E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5512A61A2B9585D856CE43D967B57F44 /* Pods-weatherLUtility_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-weatherLUtility_Tests.modulemap"; sourceTree = "<group>"; };
+		56B08A05612115FB588D0DBBF0B23407 /* weatherLUtility-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "weatherLUtility-Info.plist"; sourceTree = "<group>"; };
+		59F91BFD6DCCF16A9A6833946E539E12 /* weatherLUtility-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "weatherLUtility-umbrella.h"; sourceTree = "<group>"; };
+		6142C0E208914EF87B5DFC9FEC2D8DC2 /* Pods-weatherLUtility_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weatherLUtility_Tests-Info.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7307E82F618094C3ED640D771D24447C /* Pods-weatherLUtility_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-weatherLUtility_Tests-dummy.m"; sourceTree = "<group>"; };
+		7BA9007F5A41A9C135FE2774E110B8A7 /* weatherLUtility.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = weatherLUtility.debug.xcconfig; sourceTree = "<group>"; };
+		804101579139E5DB6D082B0E528CC30A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		8880C0A0D4F94C8770E16AEEB55F84F2 /* weatherLUtility.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = weatherLUtility.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8889FD104FBA796C580C4599EC41BEE7 /* Pods-weatherLUtility_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-weatherLUtility_Tests"; path = Pods_weatherLUtility_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EA116BB6974DA0C888336F6B103C55A /* Pods-weatherLUtility_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-weatherLUtility_Example-umbrella.h"; sourceTree = "<group>"; };
+		A9AA02F57F0A93F324B45F8ABEED7591 /* Pods-weatherLUtility_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-weatherLUtility_Example"; path = Pods_weatherLUtility_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4EA450EBEA1A18A902E13660A8644DD /* Pods-weatherLUtility_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weatherLUtility_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B91E7B054E4F281638A2E255F5988B7D /* Pods-weatherLUtility_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weatherLUtility_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BAAA8CE8983EFAE794FE43049B8E44B0 /* weatherLUtility-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "weatherLUtility-dummy.m"; sourceTree = "<group>"; };
+		BE58BF0C60FD71B3E40FF47259ACD34E /* weatherLUtility.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = weatherLUtility.release.xcconfig; sourceTree = "<group>"; };
+		C47940A54157392D9CA1B42680B98B82 /* Pods-weatherLUtility_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-weatherLUtility_Tests-umbrella.h"; sourceTree = "<group>"; };
+		C627E95E7CB3CC315BB927611C308D0F /* weatherLUtility-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "weatherLUtility-prefix.pch"; sourceTree = "<group>"; };
+		D113633474B0C602A63409651F708BB8 /* Pods-weatherLUtility_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weatherLUtility_Example-Info.plist"; sourceTree = "<group>"; };
+		D15F5D7F38EC95A084D914D23A367DA6 /* weatherLUtility.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = weatherLUtility.modulemap; sourceTree = "<group>"; };
+		D3F3D3B827BFAB03007A851C /* LocationViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationViewModel.swift; path = ../../../../../Downloads/LocationViewModel.swift; sourceTree = "<group>"; };
+		D3F3D3BA27BFAB1C007A851C /* LocationModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LocationModel.swift; path = ../../../../../Downloads/LocationModel.swift; sourceTree = "<group>"; };
+		E06EDEDA6ADC2CF3F85C60187BC3BBA0 /* Pods-weatherLUtility_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weatherLUtility_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		E4A86EB273788A5A91946E4C3741CBC3 /* Pods-weatherLUtility_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-weatherLUtility_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F18B795328879A586A06248811D3B04C /* Pods-weatherLUtility_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weatherLUtility_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F22387EEF257EEF748348ACFD39669D7 /* Pods-weatherLUtility_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-weatherLUtility_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F2B5AF89F931E441338FA06609453E60 /* Pods-weatherLUtility_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-weatherLUtility_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F327892F93F92319B8BE7C1960882F14 /* Pods-weatherLUtility_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-weatherLUtility_Example.modulemap"; sourceTree = "<group>"; };
+		F4C621F5B3B5BA4A22C5F82B81D7502F /* Pods-weatherLUtility_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-weatherLUtility_Example.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		09CA51FE554F073FA29C44BB1EC6E74A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F9BAAABF728BAF2E6BF041144E6D5A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1B6F52F84498E08407B955CD4E60A3E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A316A30FFBF1427B7CAA45673862B39 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AEB5F8C93DD173601FBA6947DD9F3D83 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C168862D27A05668326EBF21EB62FCA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05B5E0FD7CCDC8E357D09B594719770E /* Pods-weatherLUtility_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5512A61A2B9585D856CE43D967B57F44 /* Pods-weatherLUtility_Tests.modulemap */,
+				1CD73015D8C65F239E3B97EA1ED51F84 /* Pods-weatherLUtility_Tests-acknowledgements.markdown */,
+				B4EA450EBEA1A18A902E13660A8644DD /* Pods-weatherLUtility_Tests-acknowledgements.plist */,
+				7307E82F618094C3ED640D771D24447C /* Pods-weatherLUtility_Tests-dummy.m */,
+				6142C0E208914EF87B5DFC9FEC2D8DC2 /* Pods-weatherLUtility_Tests-Info.plist */,
+				C47940A54157392D9CA1B42680B98B82 /* Pods-weatherLUtility_Tests-umbrella.h */,
+				F18B795328879A586A06248811D3B04C /* Pods-weatherLUtility_Tests.debug.xcconfig */,
+				B91E7B054E4F281638A2E255F5988B7D /* Pods-weatherLUtility_Tests.release.xcconfig */,
+			);
+			name = "Pods-weatherLUtility_Tests";
+			path = "Target Support Files/Pods-weatherLUtility_Tests";
+			sourceTree = "<group>";
+		};
+		19913EBB1A3493C1C0C7DC9294118444 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				804101579139E5DB6D082B0E528CC30A /* LICENSE */,
+				4A66AC9AA3E81CB2ACDD522431EF108E /* README.md */,
+				8880C0A0D4F94C8770E16AEEB55F84F2 /* weatherLUtility.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		34024784C7B41D383C49F0E6617DB6EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9AA02F57F0A93F324B45F8ABEED7591 /* Pods-weatherLUtility_Example */,
+				8889FD104FBA796C580C4599EC41BEE7 /* Pods-weatherLUtility_Tests */,
+				27C6934BA5E09869C30F83CD42A18DD5 /* weatherLUtility.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		58F931AF000BB39C44890EA27DE3D215 /* weatherLUtility */ = {
+			isa = PBXGroup;
+			children = (
+				D3F3D3B727BFAABE007A851C /* Classes */,
+				19913EBB1A3493C1C0C7DC9294118444 /* Pod */,
+				B9C7597D280927DD7F3CABCE148DDD79 /* Support Files */,
+			);
+			name = weatherLUtility;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7C619B39BF9B74DB0D8F79844DFFE7CB /* Pods-weatherLUtility_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F327892F93F92319B8BE7C1960882F14 /* Pods-weatherLUtility_Example.modulemap */,
+				E4A86EB273788A5A91946E4C3741CBC3 /* Pods-weatherLUtility_Example-acknowledgements.markdown */,
+				F2B5AF89F931E441338FA06609453E60 /* Pods-weatherLUtility_Example-acknowledgements.plist */,
+				4754F04D5897EC735FE44B391F6354D4 /* Pods-weatherLUtility_Example-dummy.m */,
+				F22387EEF257EEF748348ACFD39669D7 /* Pods-weatherLUtility_Example-frameworks.sh */,
+				D113633474B0C602A63409651F708BB8 /* Pods-weatherLUtility_Example-Info.plist */,
+				9EA116BB6974DA0C888336F6B103C55A /* Pods-weatherLUtility_Example-umbrella.h */,
+				E06EDEDA6ADC2CF3F85C60187BC3BBA0 /* Pods-weatherLUtility_Example.debug.xcconfig */,
+				F4C621F5B3B5BA4A22C5F82B81D7502F /* Pods-weatherLUtility_Example.release.xcconfig */,
+			);
+			name = "Pods-weatherLUtility_Example";
+			path = "Target Support Files/Pods-weatherLUtility_Example";
+			sourceTree = "<group>";
+		};
+		8019EF31E8639D55C5FE86438BD66418 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7C619B39BF9B74DB0D8F79844DFFE7CB /* Pods-weatherLUtility_Example */,
+				05B5E0FD7CCDC8E357D09B594719770E /* Pods-weatherLUtility_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		94FCB9A4A75E5E206EB2CB1A943902F4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58F931AF000BB39C44890EA27DE3D215 /* weatherLUtility */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		B9C7597D280927DD7F3CABCE148DDD79 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D15F5D7F38EC95A084D914D23A367DA6 /* weatherLUtility.modulemap */,
+				BAAA8CE8983EFAE794FE43049B8E44B0 /* weatherLUtility-dummy.m */,
+				56B08A05612115FB588D0DBBF0B23407 /* weatherLUtility-Info.plist */,
+				C627E95E7CB3CC315BB927611C308D0F /* weatherLUtility-prefix.pch */,
+				59F91BFD6DCCF16A9A6833946E539E12 /* weatherLUtility-umbrella.h */,
+				7BA9007F5A41A9C135FE2774E110B8A7 /* weatherLUtility.debug.xcconfig */,
+				BE58BF0C60FD71B3E40FF47259ACD34E /* weatherLUtility.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/weatherLUtility";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				94FCB9A4A75E5E206EB2CB1A943902F4 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				34024784C7B41D383C49F0E6617DB6EE /* Products */,
+				8019EF31E8639D55C5FE86438BD66418 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D3F3D3B727BFAABE007A851C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D3F3D3B827BFAB03007A851C /* LocationViewModel.swift */,
+				D3F3D3BA27BFAB1C007A851C /* LocationModel.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30FA17133B263152823F7F343852FC72 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33EC3F96A06BF4B33727FA9EE39E3706 /* weatherLUtility-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60206080EAD22F5912977C261AC59979 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BAACFF40ED84BF354F883C6A08C6B79 /* Pods-weatherLUtility_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ECC45DEFA2CD2652C64896873777DA3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A62F0C5ECA80C656659907AF0B650C6 /* Pods-weatherLUtility_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		16467E861CFE546D673E52C2240F2723 /* Pods-weatherLUtility_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DD6DEA5F0876956B306355ABF5D2770 /* Build configuration list for PBXNativeTarget "Pods-weatherLUtility_Example" */;
+			buildPhases = (
+				6ECC45DEFA2CD2652C64896873777DA3 /* Headers */,
+				496B317CAAE535D367C85E5A1A9F384F /* Sources */,
+				09CA51FE554F073FA29C44BB1EC6E74A /* Frameworks */,
+				827BF99A05C09122EB3BC9E860A5EA5B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				96A5999745190AA412253864C2BD7757 /* PBXTargetDependency */,
+			);
+			name = "Pods-weatherLUtility_Example";
+			productName = Pods_weatherLUtility_Example;
+			productReference = A9AA02F57F0A93F324B45F8ABEED7591 /* Pods-weatherLUtility_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		1C63340A195518F2180383DF794B2495 /* Pods-weatherLUtility_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC7610A183664F1A28519A392BCDC64E /* Build configuration list for PBXNativeTarget "Pods-weatherLUtility_Tests" */;
+			buildPhases = (
+				60206080EAD22F5912977C261AC59979 /* Headers */,
+				363B8761393EE9E243E1C2C49F97F4BD /* Sources */,
+				1B6F52F84498E08407B955CD4E60A3E8 /* Frameworks */,
+				EBAC7A46BC9E5EC1A9DB4DEF9DC099CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				742D457E100E5F5B9C32DA83133B41B1 /* PBXTargetDependency */,
+			);
+			name = "Pods-weatherLUtility_Tests";
+			productName = Pods_weatherLUtility_Tests;
+			productReference = 8889FD104FBA796C580C4599EC41BEE7 /* Pods-weatherLUtility_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BD6CAEAB6293F174489C79F123941174 /* weatherLUtility */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C22F2D3DAD5C5E06F1416EB9AA59FDF /* Build configuration list for PBXNativeTarget "weatherLUtility" */;
+			buildPhases = (
+				30FA17133B263152823F7F343852FC72 /* Headers */,
+				DD145340FF897B8CCA564F053F5CC886 /* Sources */,
+				AEB5F8C93DD173601FBA6947DD9F3D83 /* Frameworks */,
+				97E307E891F48EDF30A46895215E4F51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = weatherLUtility;
+			productName = weatherLUtility;
+			productReference = 27C6934BA5E09869C30F83CD42A18DD5 /* weatherLUtility.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					BD6CAEAB6293F174489C79F123941174 = {
+						LastSwiftMigration = 1320;
+					};
+				};
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 34024784C7B41D383C49F0E6617DB6EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16467E861CFE546D673E52C2240F2723 /* Pods-weatherLUtility_Example */,
+				1C63340A195518F2180383DF794B2495 /* Pods-weatherLUtility_Tests */,
+				BD6CAEAB6293F174489C79F123941174 /* weatherLUtility */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		827BF99A05C09122EB3BC9E860A5EA5B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		97E307E891F48EDF30A46895215E4F51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAC7A46BC9E5EC1A9DB4DEF9DC099CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		363B8761393EE9E243E1C2C49F97F4BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D88DD59CD0E74DB9C71B8E74FF28701E /* Pods-weatherLUtility_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		496B317CAAE535D367C85E5A1A9F384F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AA82F2AEE97617DF5230EDD06982F5 /* Pods-weatherLUtility_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD145340FF897B8CCA564F053F5CC886 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E66D2CE8559CDE6C2F8CB8DEF7BD7CA /* weatherLUtility-dummy.m in Sources */,
+				D3F3D3BB27BFAB1C007A851C /* LocationModel.swift in Sources */,
+				D3F3D3B927BFAB03007A851C /* LocationViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		742D457E100E5F5B9C32DA83133B41B1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-weatherLUtility_Example";
+			target = 16467E861CFE546D673E52C2240F2723 /* Pods-weatherLUtility_Example */;
+			targetProxy = E0080585A13532FE8C42A7D21AE14692 /* PBXContainerItemProxy */;
+		};
+		96A5999745190AA412253864C2BD7757 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = weatherLUtility;
+			target = BD6CAEAB6293F174489C79F123941174 /* weatherLUtility */;
+			targetProxy = 23115E0F094B2B572A18EEC984A9C782 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00A757D9A14F352FE8FE6CF837D23463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BA9007F5A41A9C135FE2774E110B8A7 /* weatherLUtility.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/weatherLUtility/weatherLUtility-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/weatherLUtility/weatherLUtility-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/weatherLUtility/weatherLUtility.modulemap";
+				PRODUCT_MODULE_NAME = weatherLUtility;
+				PRODUCT_NAME = weatherLUtility;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2A1802840BE332F7EC15639B0F7BE9F6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F18B795328879A586A06248811D3B04C /* Pods-weatherLUtility_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-weatherLUtility_Tests/Pods-weatherLUtility_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-weatherLUtility_Tests/Pods-weatherLUtility_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E55DE0D6917AE0134D35A994049FD92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE58BF0C60FD71B3E40FF47259ACD34E /* weatherLUtility.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/weatherLUtility/weatherLUtility-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/weatherLUtility/weatherLUtility-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/weatherLUtility/weatherLUtility.modulemap";
+				PRODUCT_MODULE_NAME = weatherLUtility;
+				PRODUCT_NAME = weatherLUtility;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7F12E74BE6ACE3663D7A09DF6741192C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E06EDEDA6ADC2CF3F85C60187BC3BBA0 /* Pods-weatherLUtility_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-weatherLUtility_Example/Pods-weatherLUtility_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-weatherLUtility_Example/Pods-weatherLUtility_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D8A5C5AD13548B7278F635E0040F6A3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B91E7B054E4F281638A2E255F5988B7D /* Pods-weatherLUtility_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-weatherLUtility_Tests/Pods-weatherLUtility_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-weatherLUtility_Tests/Pods-weatherLUtility_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FC02A5B0D6B16ABAD5E425C09C295C87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4C621F5B3B5BA4A22C5F82B81D7502F /* Pods-weatherLUtility_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-weatherLUtility_Example/Pods-weatherLUtility_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-weatherLUtility_Example/Pods-weatherLUtility_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DD6DEA5F0876956B306355ABF5D2770 /* Build configuration list for PBXNativeTarget "Pods-weatherLUtility_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F12E74BE6ACE3663D7A09DF6741192C /* Debug */,
+				FC02A5B0D6B16ABAD5E425C09C295C87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C22F2D3DAD5C5E06F1416EB9AA59FDF /* Build configuration list for PBXNativeTarget "weatherLUtility" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00A757D9A14F352FE8FE6CF837D23463 /* Debug */,
+				5E55DE0D6917AE0134D35A994049FD92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC7610A183664F1A28519A392BCDC64E /* Build configuration list for PBXNativeTarget "Pods-weatherLUtility_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A1802840BE332F7EC15639B0F7BE9F6 /* Debug */,
+				D8A5C5AD13548B7278F635E0040F6A3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

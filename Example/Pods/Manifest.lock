@@ -1,0 +1,16 @@
+PODS:
+  - weatherLUtility (0.1.0)
+
+DEPENDENCIES:
+  - weatherLUtility (from `../`)
+
+EXTERNAL SOURCES:
+  weatherLUtility:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  weatherLUtility: 4686551fd149106e907ce71372deb00f48341014
+
+PODFILE CHECKSUM: 26cb9a86d838e7d3d921737fa1393b85b1dbe4ca
+
+COCOAPODS: 1.11.2

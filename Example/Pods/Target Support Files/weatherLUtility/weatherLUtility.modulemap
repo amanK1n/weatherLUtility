@@ -1,0 +1,6 @@
+framework module weatherLUtility {
+  umbrella header "weatherLUtility-umbrella.h"
+
+  export *
+  module * { export * }
+}
