@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		346FA436F47C6FD28A8DBA96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		346FA436F47C6FD28A8DBA96 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* weatherLUtility_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = weatherLUtility_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,13 +39,13 @@
 		607FACE51AFB9204008FA782 /* weatherLUtility_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weatherLUtility_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		73080B8B8F3850919ECAFC12 /* weatherLUtility.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = weatherLUtility.podspec; path = ../weatherLUtility.podspec; sourceTree = "<group>"; };
+		73080B8B8F3850919ECAFC12 /* weatherLUtility.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = weatherLUtility.podspec; path = ../weatherLUtility.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		82E79B3F7423C13CBC83A185 /* Pods_weatherLUtility_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weatherLUtility_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		85CBF2517586F48669F39159 /* Pods-weatherLUtility_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weatherLUtility_Tests.release.xcconfig"; path = "Target Support Files/Pods-weatherLUtility_Tests/Pods-weatherLUtility_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9A2D15DC662318056CF5077D /* Pods-weatherLUtility_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weatherLUtility_Tests.debug.xcconfig"; path = "Target Support Files/Pods-weatherLUtility_Tests/Pods-weatherLUtility_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AA9AA6E2B3D04AD2E9267F3D /* Pods-weatherLUtility_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weatherLUtility_Example.release.xcconfig"; path = "Target Support Files/Pods-weatherLUtility_Example/Pods-weatherLUtility_Example.release.xcconfig"; sourceTree = "<group>"; };
 		BD096C1FDA2A21A101F764B8 /* Pods_weatherLUtility_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_weatherLUtility_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D059F4C8B5565A5A5343D88F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		D059F4C8B5565A5A5343D88F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F32A77427F38433ECBAFCE32 /* Pods-weatherLUtility_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-weatherLUtility_Example.debug.xcconfig"; path = "Target Support Files/Pods-weatherLUtility_Example/Pods-weatherLUtility_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -77,7 +77,6 @@
 				9A2D15DC662318056CF5077D /* Pods-weatherLUtility_Tests.debug.xcconfig */,
 				85CBF2517586F48669F39159 /* Pods-weatherLUtility_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
